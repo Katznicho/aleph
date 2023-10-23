@@ -30,7 +30,8 @@
             <div class="header__nav">
 
                 <div class="header__logo brand--logo">
-                    <a href="#"><img src="{{asset('template/aleph.png')}}" alt="Aleph Ministries"></a>
+                    <a href="{{route('welcome')}}"><img src="{{asset('template/aleph.png')}}"
+                            alt="Aleph Ministries"></a>
                 </div>
 
                 <div class="header__mobile--opener hide-on-lg">
@@ -86,7 +87,7 @@
                         </div><!-- .header__submenu ends -->
                     </li><!-- .header__list ends -->
 
-                    <li class="header__list">
+                    {{-- <li class="header__list">
                         <a href="" class="dropdown-link caret">Events</a>
 
                         <div class="header__submenu">
@@ -96,10 +97,12 @@
                                 <li class="header__list"><a href="events-single.html">Events single</a></li>
 
                             </ul>
-                        </div><!-- .header__submenu ends -->
-                    </li><!-- .header__list ends -->
+                        </div>
+                        <!-- .header__submenu ends -->
+                    </li> --}}
+                    <!-- .header__list ends -->
 
-                    <li class="header__list">
+                    {{-- <li class="header__list">
                         <a href="" class="dropdown-link caret">Causes</a>
 
                         <div class="header__submenu">
@@ -110,9 +113,10 @@
 
                             </ul>
                         </div><!-- .header__submenu ends -->
-                    </li><!-- .header__list ends -->
+                    </li> --}}
+                    <!-- .header__list ends -->
 
-                    <li class="header__list">
+                    {{-- <li class="header__list">
                         <a href="" class="dropdown-link caret">Pages</a>
 
                         <div class="header__submenu">
@@ -127,8 +131,9 @@
 
                             </ul>
                         </div><!-- .header__submenu ends -->
-                    </li><!-- .header__list ends -->
-
+                    </li> --}}
+                    <!-- .header__list ends -->
+                    {{--
                     <li class="header__list">
                         <a href="" class="dropdown-link caret">Blog</a>
 
@@ -140,7 +145,8 @@
 
                             </ul>
                         </div><!-- .header__submenu ends -->
-                    </li><!-- .header__list ends -->
+                    </li> --}}
+                    <!-- .header__list ends -->
 
                     <li class="header__list"><a href="{{route('contact')}}">Contact</a></li>
                     <!-- .header__list ends -->
